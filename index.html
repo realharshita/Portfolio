@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Your Name] | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harshita | Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact_me.html">Contact Me</a></li>
-      </ul>
-    </nav>
-    <div class="header-content">
-      <h1>Harshita</h1>
-      <p>Student | Just an average student </p>
-    </div>
+    <a href="#" class="logo">
+      Harshita
+    </a>
+
+    <ul class="navList">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Tryna learn web development(front end)</p>
-    </section>
-
-    <section id="work">
-      <h2>My Work</h2>
-      <section class="projects">
-        <article>
-          <h3>Project Title 1</h3>
-          <p>[A detailed description of project 1, including features, technologies used, accomplishments.]</p>
-          <a href="#">Link to Project</a>
-          <img src="image1.png" alt="Project 1 screenshot">
-        </article>
-      </section>
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <h5>Hi, I'm</h5>
+        <h1>Harshita</h1>
+        <p>A passionate Student with Nil years of experience in nothing.</p>
+        <a href="#projects">View My Work</a>
+      </div>
+      <div class="hero-img">
+        <img src="profile-picture.jpg" alt="Your Profile Picture"> </div>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul class="skills-list">
-        <li>
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript (add more as needed)</li>
-          </ul>
-        </li>
-        <li>
-          <h3>Design Tools</h3>
-          <ul>
-            <li>Photoshop</li>
-            <li>Illustrator (add more as needed)</li>
-          </ul>
-        </li>
-      </ul>
+        <li><i class="ri-checkbox-fill"></i> Skill 1</li>
+        <li><i class="ri-checkbox-fill"></i> Skill 2</li>
+        <li><i class="ri-checkbox-fill"></i> Skill 3</li>
+        </ul>
     </section>
 
-    <section id="certificates">
-      <h2>Certificates</h2>
-      <ul class="certificates-list">
-        <li>
-          <h3>Python Devlopment</h3>
-          <p>Issued by: Just made that up</p>
-          <p>Date Issued: 27-06-2024</p>
-        </li>
-      </ul>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Project Title</h3>
+          <p>A brief description of your project.</p>
+          <a href="project-link.html">View Project</a>  </div>
+        </div>
     </section>
 
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p>[Provide preferred contact methods, e.g., email, social media links, contact form (if implemented in CSS/JavaScript)]</p>
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me using the following methods:</p>
+      <ul class="contact-info">
+        <li><i class="ri-mail-line"></i><a href="mailto:slayyharshita@gmail.com">slayyharshita@gmail.com</a></li>
+        <li><i class="ri-github-line"></i><a href="https://github.com/realharshita">realharshita</a></li>
+        <li><i class="ri-linkedin-line"></i><a href="https://www.linkedin.com/in/linkedin_profile/">LinkedIn Profile Link</a></li>
+        </ul>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2024 [Your Name]</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
-
