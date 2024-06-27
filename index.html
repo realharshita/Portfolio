@@ -3,42 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
+  <title>[Your Name] | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    <h1>Your Name</h1>
-    <p>Your Job Title</p>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact_me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>Harshita</h1>
+      <p>Student | Just an average student </p>
+    </div>
   </header>
 
   <main>
-    <h2>My Work</h2>
-    <section class="projects">
-      <article>
-        <h3>Project Title 1</h3>
-        <p>A brief description of your project 1.</p>
-        <a href="#">Link to Project</a>
-        <img src="image1.png" alt="Project 1 screenshot">
-      </article>
-      <article>
-        <h3>Project Title 2</h3>
-        <p>A brief description of your project 2.</p>
-        <a href="#">Link to Project</a>
-        <img src="image2.png" alt="Project 2 screenshot">
-      </article>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Tryna learn web development(front end)</p>
+    </section>
+
+    <section id="work">
+      <h2>My Work</h2>
+      <section class="projects">
+        <article>
+          <h3>Project Title 1</h3>
+          <p>[A detailed description of project 1, including features, technologies used, accomplishments.]</p>
+          <a href="#">Link to Project</a>
+          <img src="image1.png" alt="Project 1 screenshot">
+        </article>
+      </section>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (add more as needed)</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Design Tools</h3>
+          <ul>
+            <li>Photoshop</li>
+            <li>Illustrator (add more as needed)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <ul class="certificates-list">
+        <li>
+          <h3>Python Devlopment</h3>
+          <p>Issued by: Just made that up</p>
+          <p>Date Issued: 27-06-2024</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>[Provide preferred contact methods, e.g., email, social media links, contact form (if implemented in CSS/JavaScript)]</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Your Name</p>
+    <p>&copy; 2024 [Your Name]</p>
   </footer>
 </body>
 </html>
+

@@ -1,74 +1,111 @@
-/* Basic styles */
 body {
-    font-family: sans-serif;
     margin: 0;
     padding: 0;
+    font-family: sans-serif; /* Change to your preferred font family */
   }
   
-  header {
-    background-color: #f1f1f1;
+  header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
   }
   
   h1, h2, h3 {
-    margin-bottom: 10px;
+    margin: 10px 0;
   }
   
-  main {
-    padding: 20px;
+  p {
+    line-height: 1.5;
   }
   
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f1f1f1;
-  }
-  
-  /* Project section styles */
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  article {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    width: calc(33% - 20px); /* Responsive layout for 3 projects per row */
-  }
-  
-  article img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  header nav {
+  nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    width: 100%;
   }
   
-  header nav ul {
+  nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
   }
   
-  header nav li {
-    display: inline-block;
-    margin-right: 20px;
+  nav li {
+    margin: 0 10px;
   }
   
-  header nav a {
+  nav a {
     text-decoration: none;
     color: #333;
   }
   
-  header nav a:hover {
-    color: #000;
+  .header-content {
+    text-align: center;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  article {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center; /* Adjust as needed */
+  }
+  
+  article img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list, .certificates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li, .certificates-list li {
+    margin-bottom: 15px;
+  }
+  
+  .skills-list h3, .certificates-list h3 {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+  }
+  
+  .navbar li {
+    float: left;
   }
   
